@@ -1,0 +1,16 @@
+    float funcion(int argumento){
+        float var1;
+        int var2;
+        var2 = argumento + 5;
+        var1 = argumento/var2;
+        return var1;    
+    }
+    int main(){
+        int var1;
+        float res;
+        printf("Ingrese un número");
+        scanf("%i", &var1);
+
+        res = funcion(var1);
+        printf("El resultado es %.2f", res);
+    }
